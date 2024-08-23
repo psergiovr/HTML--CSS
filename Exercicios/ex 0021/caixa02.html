@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(222, 211, 198);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            color: rgba(20, 20, 20, 0.699);
+            box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 0.552);
+        }
+        nav{
+            background-color: burlywood;
+            padding: 3px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.552);
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(222, 211, 198);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.573);
+        }
+        article{
+            background-color: rgba(253, 172, 139, 0.404);
+            padding: 5px;
+        }
+        article>h2{
+            color: rgb(59, 59, 110);
+        }
+        article>aside{
+            background-color: rgba(250, 171, 139, 0.878);
+        }
+        #esporte{
+            background-color: rgb(222, 211, 198);
+        }
+        #esporte>h2{
+            color: rgb(83, 83, 6);
+        }
+        #esporte>aside{
+            background-color: rgba(83, 83, 6, 0.363);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política e Tecnologia</p>
+        </section>
+            <section id="noticia">
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, mollitia voluptatibus. Tempora veniam quam, non dicta voluptatibus fugiat dolores nam accusantium obcaecati numquam incidunt voluptate hic quas suscipit id iure.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+                <article id="esporte">
+                    <h2>Fala esporte</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta reprehenderit similique vitae quis a expedita libero? Exercitationem iure deleniti sunt nobis ea iste omnis aspernatur, voluptas assumenda, eos veritatis!</p>
+                    <aside>
+                        <p>Artigo escrito por Marcos Ferrary</p>
+                    </aside>
+                </article>
+            </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
