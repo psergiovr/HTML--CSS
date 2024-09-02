@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/*Paisagem*/
+body{
+    background-image: url(../img/sergio-m-img.png);
+    background-position: center bottom;
+}
