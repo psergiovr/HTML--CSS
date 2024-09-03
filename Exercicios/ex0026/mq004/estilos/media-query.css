@@ -2,6 +2,73 @@
 
 /*Todas as demais medias*/
 
+/*Typical device breakpoint p/ pesquisar*/
+
+/*Impressão*/
 @media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+       background-image: url(../img/back-print.jpg);/*Essa imagem é desnecessaria*/
+    }
+    main{
+        width: 95vw;
+        border: 2px solid black;
+        font-size: 0.7em;
+    }
+    main::after{
+        content: "Essa impressão foi feita pelo aluno Paulo Sérgio do CursoemVídeo.";
+        text-decoration: overline;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+        img#phone{display: none;}
+        img#tablet{display: none;}
+        img#print{display: block;}
+        img#pc{display: none;}
+        img#tv{display: none;} 
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+        img#phone{display: none;}
+        img#tablet{display: block;}
+        img#print{display: none;}
+        img#pc{display: none;}
+        img#tv{display: none;} 
+}
+
+/*Desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url(../img/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+/*Telas Grandes*/
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+    }
+    main{
+        width: 700px;
+    }
     
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
 }
