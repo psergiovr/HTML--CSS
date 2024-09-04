@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: darkgray;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.482);
+}
+header h1{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 3em;
+}
+menu{
+    display: none;
+}
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    width: 90vw;
+    float: none;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.782);
+    color: white;
+    padding: 10px;
+    border-top: 2px solid rgb(205, 200, 200);
+    border-radius: 6px 0px 6px 0px;
+}
+i#burguer{
+    background-color: rgb(111, 109, 109);
+    display: block;
+    color: rgb(216, 213, 213);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu > ul > li > a:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.825);
+    font-weight: bold;
+}
+main{
+    width: 80vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 15px 0px 15px 0px;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+main h2{
+    padding: 10px;
+}
+main p{
+    text-indent: 20px;
+    padding: 10px;
+}
