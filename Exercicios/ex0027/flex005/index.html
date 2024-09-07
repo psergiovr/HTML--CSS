@@ -10,33 +10,57 @@
             padding: 0px;
             box-sizing: border-box;
         }
+       
         body{
-            background-color: lightpink;
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            align-items: center;
+            background-color: rgb(230, 19, 50);
         }
+      
         main{
-            background-color: lightcoral;
-            width: 90vw;
-            height: 300px;
+            background-color: rgb(113, 109, 109);
+            width: 100vw;
+            height: 100vh;
+            color: white;
             display: flex;/* Main é o pai*/
-            flex-flow: row nowrap;
-            justify-content: center;
+            flex-flow: column nowrap;
+            justify-content: space-between;
             align-items: center;
         }
+
         section{
-            background-color: lightyellow;
-            width: 200px;
-            height: 200px;
+            background-color: rgb(247, 247, 10);
+            width: 100vw;
+            height: 150px;
+            color: orangered;
+            margin-bottom: 0px;
+        }
+
+        .flex{
+            background-color: aqua;
+            color: blue;
+            width: 400px;
+            height: 400px;
+        }
+
+        .flex01{
+            background-color: rgb(139, 156, 156);
+            color: rgba(0, 0, 0, 0.795);
+            width: 400px;
+            height: 400px;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
     <main>
+        <h1>Main</h1>
         <section>
-            <h1>Tela de Login</h1>
+            <h1>Tela de Login/Section</h1>
+        </section>
+        <section class="flex">
+            <p>Section.flex</p>
+        </section>
+        <section class="flex01">
+            <p>Section.flex01</p>
         </section>
     </main>
 </body>
