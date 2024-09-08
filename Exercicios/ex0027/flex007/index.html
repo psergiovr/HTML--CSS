@@ -7,33 +7,25 @@
     <style>
         div.conteiner{
             background-color: aquamarine;
-            height: 400px;
             display: flex;
             flex-flow: row wrap;
-            align-items: center;
         }
         div.itens{
             background-color: burlywood;
             border: 1px solid white;
             text-align: center;
-            padding: 40px;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="itens">A</div>
+        <div class="itens" style="order: 1;">A</div>
         <div class="itens">B</div>
         <div class="itens">C</div>
-        <div class="itens">D</div>
+        <div class="itens" style="order: -1;">D</div>
         <div class="itens">F</div>
         <div class="itens">G</div>
-        <div class="itens">H</div>
-        <div class="itens">I</div>
-        <div class="itens">J</div>
-        <div class="itens">K</div>
-        <div class="itens">L</div>
-        <div class="itens">M</div>
     </div>
 </body>
 </html>
