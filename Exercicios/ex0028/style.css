@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'sua';
+    src: url('fonte/Meddon-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.conteiner{
+    background-color: bisque;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div.item{
+    font-family: 'sua';
+    background-color: blueviolet;
+    font-size: 2em;
+    padding: 8px;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+div.item-sua{
+    font-family: 'sua';
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3em;
+    text-shadow: 2px 2px 3px black;
+    width: 150px;
+    height: 150px;
+    padding-top: 35px;
+    border-radius: 50%;
+}
