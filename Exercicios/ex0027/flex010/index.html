@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row nowrap;
+            
+        }
+        div.itens{
+            background-color: burlywood;
+            border: 1px solid white;
+            text-align: center;
+            padding: 5px;
+            flex-basis: 250px;
+            flex-shrink: 2;
+            flex-grow: 0;
+        }
+        div.itens-medio{
+            background-color: rgb(242, 145, 18);
+            border: 1px solid white;
+            padding: 5px;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        div.itens-maior{
+            background-color: rgb(242, 145, 18);
+            border: 1px solid white;
+            padding: 5px;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="itens"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi corporis, voluptate quibusdam illum reiciendis amet, quasi deserunt non laboriosam deleniti modi, impedit aliquam iusto magni odio sunt quos odit voluptates?</p></div>
+        <div class="itens-medio"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, a! Esse quos similique vel corrupti minima distinctio qui est explicabo quisquam, voluptatum magni amet laudantium consequuntur atque voluptates! Voluptates, obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum natus accusantium numquam quo velit, nam nihil nulla illo nostrum veniam. Deleniti eos, velit saepe consectetur laboriosam aliquam tenetur ab voluptas?</p></div>
+        <div class="itens-maior"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur nostrum voluptates voluptas. Enim quia tenetur consequatur sapiente, distinctio labore nobis quibusdam. Sunt cum voluptas laboriosam blanditiis officia error ex? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam totam accusamus inventore, explicabo dolores quasi quae fuga sequi quidem ullam illo ducimus obcaecati quia animi sunt eveniet non repellat recusandae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, ea! Praesentium harum sequi, natus perspiciatis ea reprehenderit iure amet veniam commodi error explicabo alias fuga qui maiores, quasi quae eum!</p></div>
+    </div>
+</body>
+</html>
