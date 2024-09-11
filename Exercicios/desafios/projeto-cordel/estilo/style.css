@@ -65,14 +65,13 @@ section.imagem{
     color: white;
     font-family: var(--fonte-secundaria);
     padding: 50px 30px 50px;
-    background-image: url('projeto-cordel/img/background001.jpg');
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.508);
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
 section#img01{
     background-image: url('../img/background001.jpg');
-    background-position: center center;
 }
 section#img02{
     background-image: url('../img/background002.jpg');
