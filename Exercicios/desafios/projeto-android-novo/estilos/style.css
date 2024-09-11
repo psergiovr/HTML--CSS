@@ -157,11 +157,14 @@ aside > p > a{
     border-radius: 3px;
 }
 footer > p{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
-    text-align: center;
     padding: 6px;
-    margin-top: 20px;
+    border: 1px dotted white;
 }
 footer > p > a{
     background-color: white;
@@ -169,4 +172,5 @@ footer > p > a{
     text-decoration: none;
     padding: 5px;
     border-radius: 3px;
-}
+    border: 1px dotted black;
+    }
