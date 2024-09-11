@@ -4,9 +4,9 @@
     form.conteiner{
         background-color: lightgray;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column-reverse nowrap;
         align-items: center;
-        align-self: flex-start;
+        justify-content: flex-end;
         height: 100vh;
     }
     header.itens01{
