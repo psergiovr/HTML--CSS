@@ -28,8 +28,8 @@
         height: 200px;
         padding: 10px;
         background: url(../img/pexels-pavel-danilyuk-6461501.jpg);
-        background-color: yellow;
-        background-position: center right;
+    
+        background-position: left center;
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 2px 2px 4px black;
@@ -65,8 +65,8 @@
         height: 400px;
         padding: 10px;
         background: url(../img/pexels-pavel-danilyuk-6461501.jpg);
-        background-color: yellow;
-        background-position: center right;
+        
+        background-position: bottom left;
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 2px 2px 4px black;
@@ -101,7 +101,7 @@
         height: 400px;
         padding: 10px;
         background: url(../img/pexels-pavel-danilyuk-6461501.jpg);
-        background-color: yellow;
+        
         background-position: center left;
         background-size: cover;
         background-repeat: no-repeat;
