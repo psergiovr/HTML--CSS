@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+:root{
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    font-size: 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.411);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+}
+.header section{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar > a{
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: white;
+}
+.navbar > a:hover{
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.3rem;
+    font-size: 2rem;
+}
+.icons > img{
+    margin: 1rem;
+    cursor: pointer;
+}
+.icons > img:hover{
+    width: 40px;
+    height: 40px;
+}
+.btn{
+    background: var(--main-color);
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: inline-block;
+}
+.home-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: url(../pexels-michael-burrows-7125781.jpg);
+    height: 100svh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.437);
+    max-width: 60rem;
+    border-radius: 6px;
+    padding: 10px;
+}
+.content h3{
+    color: white;
+    font-size: 6rem;
+}
+.content p{
+    color: white;
+    line-height: 3rem;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
